@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -58,7 +58,7 @@ I2C_SCL
 NoConn ~ 4750 4000
 NoConn ~ 4750 4100
 Text HLabel 6000 3900 2    50   Output ~ 0
-2V8_EN
+TOF_EN
 NoConn ~ 4750 4200
 NoConn ~ 4750 4300
 NoConn ~ 4750 4400
