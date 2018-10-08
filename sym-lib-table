@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Infineon)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/Infineon.lib)(options "")(descr ""))
+  (lib (name Panchip)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/Panchip.lib)(options "")(descr ""))
+  (lib (name PhoenixRobotik)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/PhoenixRobotik.lib)(options "")(descr ""))
+  (lib (name st-microelectronics)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/st-microelectronics.lib)(options "")(descr ""))
+  (lib (name ST_Microelectronics)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/ST_Microelectronics.lib)(options "")(descr ""))
+)
