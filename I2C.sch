@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 12
 Title ""
 Date ""
 Rev ""
@@ -41,10 +41,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3400 3700 50  000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR051
+L power:+3.3V #PWR035
 U 1 1 5BBBF787
 P 2450 2650
-F 0 "#PWR051" H 2450 2500 50  0001 C CNN
+F 0 "#PWR035" H 2450 2500 50  0001 C CNN
 F 1 "+3.3V" H 2465 2823 50  0000 C CNN
 F 2 "" H 2450 2650 50  0001 C CNN
 F 3 "" H 2450 2650 50  0001 C CNN
@@ -52,10 +52,10 @@ F 3 "" H 2450 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V8 #PWR052
+L power:+2V8 #PWR036
 U 1 1 5BBBFBE8
 P 2700 3950
-F 0 "#PWR052" H 2700 3800 50  0001 C CNN
+F 0 "#PWR036" H 2700 3800 50  0001 C CNN
 F 1 "+2V8" V 2715 4078 50  0000 L CNN
 F 2 "" H 2700 3950 50  0001 C CNN
 F 3 "" H 2700 3950 50  0001 C CNN

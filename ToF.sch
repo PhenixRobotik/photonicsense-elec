@@ -1,0 +1,208 @@
+EESchema Schematic File Version 4
+LIBS:photonicsense-elec-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5BBF8577
+P 3250 3600
+AR Path="/5BBF8577" Ref="J?"  Part="1" 
+AR Path="/5BBF84F0/5BBF8577" Ref="J5"  Part="1" 
+AR Path="/5BBFB7E9/5BBF8577" Ref="J2"  Part="1" 
+AR Path="/5BBFB7F2/5BBF8577" Ref="J3"  Part="1" 
+AR Path="/5BBFB7F7/5BBF8577" Ref="J4"  Part="1" 
+AR Path="/5BBFB807/5BBF8577" Ref="J6"  Part="1" 
+AR Path="/5BBFB80C/5BBF8577" Ref="J7"  Part="1" 
+AR Path="/5BBFB811/5BBF8577" Ref="J8"  Part="1" 
+AR Path="/5BBFB816/5BBF8577" Ref="J9"  Part="1" 
+F 0 "J9" V 3216 3312 50  0000 R CNN
+F 1 "Conn_01x05" V 3125 3312 50  0000 R CNN
+F 2 "" H 3250 3600 50  0001 C CNN
+F 3 "~" H 3250 3600 50  0001 C CNN
+	1    3250 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5BBF857E
+P 3550 3800
+AR Path="/5BBF857E" Ref="#PWR?"  Part="1" 
+AR Path="/5BBF84F0/5BBF857E" Ref="#PWR050"  Part="1" 
+AR Path="/5BBFB7E9/5BBF857E" Ref="#PWR038"  Part="1" 
+AR Path="/5BBFB7F2/5BBF857E" Ref="#PWR042"  Part="1" 
+AR Path="/5BBFB7F7/5BBF857E" Ref="#PWR046"  Part="1" 
+AR Path="/5BBFB807/5BBF857E" Ref="#PWR054"  Part="1" 
+AR Path="/5BBFB80C/5BBF857E" Ref="#PWR058"  Part="1" 
+AR Path="/5BBFB811/5BBF857E" Ref="#PWR062"  Part="1" 
+AR Path="/5BBFB816/5BBF857E" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 3550 3650 50  0001 C CNN
+F 1 "+2V8" H 3565 3973 50  0000 C CNN
+F 2 "" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 3800 3550 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5BBF8585
+P 3550 3400
+AR Path="/5BBF8585" Ref="#PWR?"  Part="1" 
+AR Path="/5BBF84F0/5BBF8585" Ref="#PWR049"  Part="1" 
+AR Path="/5BBFB7E9/5BBF8585" Ref="#PWR037"  Part="1" 
+AR Path="/5BBFB7F2/5BBF8585" Ref="#PWR041"  Part="1" 
+AR Path="/5BBFB7F7/5BBF8585" Ref="#PWR045"  Part="1" 
+AR Path="/5BBFB807/5BBF8585" Ref="#PWR053"  Part="1" 
+AR Path="/5BBFB80C/5BBF8585" Ref="#PWR057"  Part="1" 
+AR Path="/5BBFB811/5BBF8585" Ref="#PWR061"  Part="1" 
+AR Path="/5BBFB816/5BBF8585" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 3550 3150 50  0001 C CNN
+F 1 "GND" H 3555 3227 50  0000 C CNN
+F 2 "" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+	1    3550 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 3400 3550 3400
+Wire Wire Line
+	3550 3700 3450 3700
+Wire Wire Line
+	3550 3600 3450 3600
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5BBF8590
+P 4450 3400
+AR Path="/5BBF8590" Ref="Q?"  Part="1" 
+AR Path="/5BBF84F0/5BBF8590" Ref="Q6"  Part="1" 
+AR Path="/5BBFB7E9/5BBF8590" Ref="Q3"  Part="1" 
+AR Path="/5BBFB7F2/5BBF8590" Ref="Q4"  Part="1" 
+AR Path="/5BBFB7F7/5BBF8590" Ref="Q5"  Part="1" 
+AR Path="/5BBFB807/5BBF8590" Ref="Q7"  Part="1" 
+AR Path="/5BBFB80C/5BBF8590" Ref="Q8"  Part="1" 
+AR Path="/5BBFB811/5BBF8590" Ref="Q9"  Part="1" 
+AR Path="/5BBFB816/5BBF8590" Ref="Q10"  Part="1" 
+F 0 "Q10" V 4793 3400 50  0000 C CNN
+F 1 "BSS138" V 4702 3400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4650 3325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4450 3400 50  0001 L CNN
+	1    4450 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBF8597
+P 4050 3350
+AR Path="/5BBF8597" Ref="R?"  Part="1" 
+AR Path="/5BBF84F0/5BBF8597" Ref="R20"  Part="1" 
+AR Path="/5BBFB7E9/5BBF8597" Ref="R14"  Part="1" 
+AR Path="/5BBFB7F2/5BBF8597" Ref="R16"  Part="1" 
+AR Path="/5BBFB7F7/5BBF8597" Ref="R18"  Part="1" 
+AR Path="/5BBFB807/5BBF8597" Ref="R22"  Part="1" 
+AR Path="/5BBFB80C/5BBF8597" Ref="R24"  Part="1" 
+AR Path="/5BBFB811/5BBF8597" Ref="R26"  Part="1" 
+AR Path="/5BBFB816/5BBF8597" Ref="R28"  Part="1" 
+F 0 "R28" H 4120 3396 50  0000 L CNN
+F 1 "R" H 4120 3305 50  0000 L CNN
+F 2 "" V 3980 3350 50  0001 C CNN
+F 3 "~" H 4050 3350 50  0001 C CNN
+	1    4050 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 3500 4050 3500
+Wire Wire Line
+	4450 3200 4050 3200
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5BBF85A0
+P 4050 3100
+AR Path="/5BBF85A0" Ref="#PWR?"  Part="1" 
+AR Path="/5BBF84F0/5BBF85A0" Ref="#PWR051"  Part="1" 
+AR Path="/5BBFB7E9/5BBF85A0" Ref="#PWR039"  Part="1" 
+AR Path="/5BBFB7F2/5BBF85A0" Ref="#PWR043"  Part="1" 
+AR Path="/5BBFB7F7/5BBF85A0" Ref="#PWR047"  Part="1" 
+AR Path="/5BBFB807/5BBF85A0" Ref="#PWR055"  Part="1" 
+AR Path="/5BBFB80C/5BBF85A0" Ref="#PWR059"  Part="1" 
+AR Path="/5BBFB811/5BBF85A0" Ref="#PWR063"  Part="1" 
+AR Path="/5BBFB816/5BBF85A0" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 4050 2950 50  0001 C CNN
+F 1 "+2V8" H 4065 3273 50  0000 C CNN
+F 2 "" H 4050 3100 50  0001 C CNN
+F 3 "" H 4050 3100 50  0001 C CNN
+	1    4050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBF85A6
+P 4800 3350
+AR Path="/5BBF85A6" Ref="R?"  Part="1" 
+AR Path="/5BBF84F0/5BBF85A6" Ref="R21"  Part="1" 
+AR Path="/5BBFB7E9/5BBF85A6" Ref="R15"  Part="1" 
+AR Path="/5BBFB7F2/5BBF85A6" Ref="R17"  Part="1" 
+AR Path="/5BBFB7F7/5BBF85A6" Ref="R19"  Part="1" 
+AR Path="/5BBFB807/5BBF85A6" Ref="R23"  Part="1" 
+AR Path="/5BBFB80C/5BBF85A6" Ref="R25"  Part="1" 
+AR Path="/5BBFB811/5BBF85A6" Ref="R27"  Part="1" 
+AR Path="/5BBFB816/5BBF85A6" Ref="R29"  Part="1" 
+F 0 "R29" H 4870 3396 50  0000 L CNN
+F 1 "R" H 4870 3305 50  0000 L CNN
+F 2 "" V 4730 3350 50  0001 C CNN
+F 3 "~" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 3200 4050 3100
+Connection ~ 4050 3200
+Wire Wire Line
+	4800 3500 4650 3500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBF85B0
+P 4800 3100
+AR Path="/5BBF85B0" Ref="#PWR?"  Part="1" 
+AR Path="/5BBF84F0/5BBF85B0" Ref="#PWR052"  Part="1" 
+AR Path="/5BBFB7E9/5BBF85B0" Ref="#PWR040"  Part="1" 
+AR Path="/5BBFB7F2/5BBF85B0" Ref="#PWR044"  Part="1" 
+AR Path="/5BBFB7F7/5BBF85B0" Ref="#PWR048"  Part="1" 
+AR Path="/5BBFB807/5BBF85B0" Ref="#PWR056"  Part="1" 
+AR Path="/5BBFB80C/5BBF85B0" Ref="#PWR060"  Part="1" 
+AR Path="/5BBFB811/5BBF85B0" Ref="#PWR064"  Part="1" 
+AR Path="/5BBFB816/5BBF85B0" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 4800 2950 50  0001 C CNN
+F 1 "+3V3" H 4815 3273 50  0000 C CNN
+F 2 "" H 4800 3100 50  0001 C CNN
+F 3 "" H 4800 3100 50  0001 C CNN
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3100 4800 3200
+Wire Wire Line
+	3450 3500 4050 3500
+Connection ~ 4050 3500
+Text HLabel 5000 3500 2    50   Input ~ 0
+ToF_Reset
+Wire Wire Line
+	4800 3500 5000 3500
+Connection ~ 4800 3500
+Text GLabel 3550 3600 2    50   BiDi ~ 0
+ToF_SDA
+Text GLabel 3550 3700 2    50   BiDi ~ 0
+ToF_SCL
+$EndSCHEMATC
