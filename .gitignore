@@ -28,6 +28,6 @@ _autosave-*
 *.xml
 *.csv
 
-
 # End of https://www.gitignore.io/api/kicad
 
+_saved_*.sch
