@@ -25,22 +25,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    5350 3800
 	1    0    0    -1  
 $EndComp
-Text HLabel 6000 3100 2    50   Output ~ 0
-ToF_Reset_0
-Text HLabel 6000 3200 2    50   Output ~ 0
-ToF_Reset_1
-Text HLabel 6000 3300 2    50   Output ~ 0
-ToF_Reset_2
-Text HLabel 6000 3400 2    50   Output ~ 0
-ToF_Reset_3
-Text HLabel 6000 3500 2    50   Output ~ 0
-ToF_Reset_4
-Text HLabel 6000 3600 2    50   Output ~ 0
-ToF_Reset_5
-Text HLabel 6000 3700 2    50   Output ~ 0
-ToF_Reset_6
-Text HLabel 6000 3800 2    50   Output ~ 0
-ToF_Reset_7
 Text HLabel 6000 4000 2    50   Output ~ 0
 UART_TX
 Text HLabel 6000 4100 2    50   Input ~ 0
@@ -55,13 +39,6 @@ Text HLabel 6000 4500 2    50   Input ~ 0
 SWCLK
 Text HLabel 6000 4600 2    50   BiDi ~ 0
 I2C_SCL
-NoConn ~ 4750 4000
-NoConn ~ 4750 4100
-Text HLabel 6000 3900 2    50   Output ~ 0
-TOF_EN
-NoConn ~ 4750 4200
-NoConn ~ 4750 4300
-NoConn ~ 4750 4400
 Text HLabel 4600 4600 0    50   BiDi ~ 0
 I2C_SDA
 $Comp
@@ -382,42 +359,40 @@ Connection ~ 5300 4900
 $Comp
 L Device:R R9
 U 1 1 5BBDC2CE
-P 4450 4500
-F 0 "R9" V 4243 4500 50  0000 C CNN
-F 1 "R" V 4334 4500 50  0000 C CNN
-F 2 "" V 4380 4500 50  0001 C CNN
-F 3 "~" H 4450 4500 50  0001 C CNN
-	1    4450 4500
-	0    1    1    0   
+P 6300 3900
+F 0 "R9" V 6093 3900 50  0000 C CNN
+F 1 "R" V 6184 3900 50  0000 C CNN
+F 2 "" V 6230 3900 50  0001 C CNN
+F 3 "~" H 6300 3900 50  0001 C CNN
+	1    6300 3900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5BBDC410
-P 3700 4500
-F 0 "#PWR026" H 3700 4250 50  0001 C CNN
-F 1 "GND" V 3705 4372 50  0000 R CNN
-F 2 "" H 3700 4500 50  0001 C CNN
-F 3 "" H 3700 4500 50  0001 C CNN
-	1    3700 4500
-	0    1    1    0   
+P 7050 3900
+F 0 "#PWR026" H 7050 3650 50  0001 C CNN
+F 1 "GND" V 7055 3772 50  0000 R CNN
+F 2 "" H 7050 3900 50  0001 C CNN
+F 3 "" H 7050 3900 50  0001 C CNN
+	1    7050 3900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_ALT D6
 U 1 1 5BBDC4BF
-P 4000 4500
-F 0 "D6" H 3991 4716 50  0000 C CNN
-F 1 "LED_ALT" H 3991 4625 50  0000 C CNN
-F 2 "" H 4000 4500 50  0001 C CNN
-F 3 "~" H 4000 4500 50  0001 C CNN
-	1    4000 4500
-	1    0    0    -1  
+P 6750 3900
+F 0 "D6" H 6741 4116 50  0000 C CNN
+F 1 "LED_ALT" H 6741 4025 50  0000 C CNN
+F 2 "" H 6750 3900 50  0001 C CNN
+F 3 "~" H 6750 3900 50  0001 C CNN
+	1    6750 3900
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4600 4500 4750 4500
+	6600 3900 6450 3900
 Wire Wire Line
-	4150 4500 4300 4500
-Wire Wire Line
-	3700 4500 3850 4500
+	7050 3900 6900 3900
 Wire Wire Line
 	5850 3100 6000 3100
 Wire Wire Line
@@ -434,8 +409,6 @@ Wire Wire Line
 	5850 3700 6000 3700
 Wire Wire Line
 	5850 3800 6000 3800
-Wire Wire Line
-	5850 3900 6000 3900
 Wire Wire Line
 	5850 4000 6000 4000
 Wire Wire Line
@@ -474,4 +447,30 @@ Wire Wire Line
 Connection ~ 5550 2550
 Wire Wire Line
 	5800 2550 5800 2450
+Wire Wire Line
+	5850 3900 6150 3900
+Text HLabel 6000 3100 2    50   Output ~ 0
+US_TRIG_0
+Text HLabel 6000 3300 2    50   Output ~ 0
+US_TRIG_1
+Text HLabel 6000 3500 2    50   Output ~ 0
+US_TRIG_2
+Text HLabel 6000 3700 2    50   Output ~ 0
+US_TRIG_3
+Text HLabel 6000 3200 2    50   Input ~ 0
+US_ECHO_0
+Text HLabel 6000 3400 2    50   Input ~ 0
+US_ECHO_1
+Text HLabel 6000 3600 2    50   Input ~ 0
+US_ECHO_2
+Text HLabel 6000 3800 2    50   Input ~ 0
+US_ECHO_3
+Text HLabel 4750 4000 0    50   Output ~ 0
+TOF_RESET_DATA
+Text HLabel 4750 4100 0    50   Output ~ 0
+TOF_RESET_SHIFT
+NoConn ~ 4750 4200
+NoConn ~ 4750 4300
+NoConn ~ 4750 4400
+NoConn ~ 4750 4500
 $EndSCHEMATC
