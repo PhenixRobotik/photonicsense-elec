@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 19
+Sheet 19 19
 Title ""
 Date ""
 Rev ""
@@ -402,14 +402,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 3400 6000 3400
 Wire Wire Line
-	5850 3500 6000 3500
-Wire Wire Line
-	5850 3600 6000 3600
-Wire Wire Line
-	5850 3700 6000 3700
-Wire Wire Line
-	5850 3800 6000 3800
-Wire Wire Line
 	5850 4000 6000 4000
 Wire Wire Line
 	5850 4100 6000 4100
@@ -451,26 +443,34 @@ Wire Wire Line
 	5850 3900 6150 3900
 Text HLabel 6000 3100 2    50   Output ~ 0
 US_TRIG_0
-Text HLabel 6000 3300 2    50   Output ~ 0
+Text HLabel 6000 3200 2    50   Output ~ 0
 US_TRIG_1
-Text HLabel 6000 3500 2    50   Output ~ 0
+Text HLabel 6000 3300 2    50   Output ~ 0
 US_TRIG_2
-Text HLabel 6000 3700 2    50   Output ~ 0
+Text HLabel 6000 3400 2    50   Output ~ 0
 US_TRIG_3
-Text HLabel 6000 3200 2    50   Input ~ 0
+Text HLabel 4750 4200 0    50   Input ~ 0
 US_ECHO_0
-Text HLabel 6000 3400 2    50   Input ~ 0
+Text HLabel 4750 4300 0    50   Input ~ 0
 US_ECHO_1
-Text HLabel 6000 3600 2    50   Input ~ 0
+Text HLabel 4750 4400 0    50   Input ~ 0
 US_ECHO_2
-Text HLabel 6000 3800 2    50   Input ~ 0
+Text HLabel 4750 4500 0    50   Input ~ 0
 US_ECHO_3
 Text HLabel 4750 4000 0    50   Output ~ 0
 TOF_RESET_DATA
 Text HLabel 4750 4100 0    50   Output ~ 0
 TOF_RESET_SHIFT
-NoConn ~ 4750 4200
-NoConn ~ 4750 4300
-NoConn ~ 4750 4400
-NoConn ~ 4750 4500
+NoConn ~ 5850 3800
+NoConn ~ 5850 3700
+NoConn ~ 5850 3600
+NoConn ~ 5850 3500
+Text Notes 6550 3250 0    50   ~ 0
+Pas 5V Tolerant
+Wire Notes Line
+	6400 3050 6500 3050
+Wire Notes Line
+	6500 3050 6500 3450
+Wire Notes Line
+	6500 3450 6400 3450
 $EndSCHEMATC
