@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:photonicsense-elec-cache
+LIBS:ultraphotonicsense-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -533,4 +533,59 @@ Wire Wire Line
 	1750 3300 1850 3300
 Wire Wire Line
 	1650 3050 1650 2950
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO?
+U 1 1 5BBE6179
+P 8650 3050
+F 0 "#LOGO?" H 8650 3550 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 8650 2650 50  0001 C CNN
+F 2 "" H 8650 3050 50  0001 C CNN
+F 3 "~" H 8650 3050 50  0001 C CNN
+	1    8650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BBE6263
+P 9250 2650
+F 0 "MH?" H 9350 2696 50  0000 L CNN
+F 1 "MountingHole" H 9350 2605 50  0000 L CNN
+F 2 "" H 9250 2650 50  0001 C CNN
+F 3 "~" H 9250 2650 50  0001 C CNN
+	1    9250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BBE62B0
+P 9250 2900
+F 0 "MH?" H 9350 2946 50  0000 L CNN
+F 1 "MountingHole" H 9350 2855 50  0000 L CNN
+F 2 "" H 9250 2900 50  0001 C CNN
+F 3 "~" H 9250 2900 50  0001 C CNN
+	1    9250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BBE62F0
+P 9250 3150
+F 0 "MH?" H 9350 3196 50  0000 L CNN
+F 1 "MountingHole" H 9350 3105 50  0000 L CNN
+F 2 "" H 9250 3150 50  0001 C CNN
+F 3 "~" H 9250 3150 50  0001 C CNN
+	1    9250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BBE6333
+P 9250 3400
+F 0 "MH?" H 9350 3446 50  0000 L CNN
+F 1 "MountingHole" H 9350 3355 50  0000 L CNN
+F 2 "" H 9250 3400 50  0001 C CNN
+F 3 "~" H 9250 3400 50  0001 C CNN
+	1    9250 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
