@@ -1,2 +1,2 @@
-# photonicsense-elec
-Board for ToF sensors management
+# ultraphotonicsense-elec
+Board for Time of Flight and ultrasonic sensors management
