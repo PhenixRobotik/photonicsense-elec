@@ -32,7 +32,7 @@ AR Path="/5BBEFA1A/5BBEDD8D" Ref="Q4"  Part="1"
 AR Path="/5BBEFA89/5BBEDD8D" Ref="Q3"  Part="1" 
 F 0 "Q5" V 4343 3100 50  0000 C CNN
 F 1 "BSS138" V 4252 3100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 3025 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4200 3025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4000 3100 50  0001 L CNN
 	1    4000 3100
 	0    -1   -1   0   

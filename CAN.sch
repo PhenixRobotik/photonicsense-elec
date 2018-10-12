@@ -20,7 +20,7 @@ U 1 1 5B231012
 P 6700 2050
 F 0 "P1" H 6500 1750 50  0000 L CNN
 F 1 "CAN_conn" H 6450 2350 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6850 1700 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 6850 1700 50  0001 C CNN
 F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 7149 1959 50  0001 L CNN
 	1    6700 2050
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5BADEF26
 P 7450 2050
 F 0 "P2" H 7250 1750 50  0000 L CNN
 F 1 "CAN_conn" H 7200 2350 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 7600 1700 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 7600 1700 50  0001 C CNN
 F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 7899 1959 50  0001 L CNN
 	1    7450 2050
 	1    0    0    -1  
@@ -455,7 +455,7 @@ U 1 1 5BB50E4B
 P 4650 1550
 F 0 "C4" V 4398 1550 50  0000 C CNN
 F 1 "100nF" V 4489 1550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.33x1.40mm_HandSolder" H 4688 1400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 1400 50  0001 C CNN
 F 3 "~" H 4650 1550 50  0001 C CNN
 	1    4650 1550
 	0    1    1    0   
@@ -489,7 +489,7 @@ U 1 1 5BBAAF8D
 P 9100 4150
 F 0 "U6" H 9100 4517 50  0000 C CNN
 F 1 "LP38693MP-ADJ" H 9100 4426 50  0000 C CNN
-F 2 "" H 9100 4150 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-5" H 9100 4150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/snvs324k/snvs324k.pdf" H 9100 4150 50  0001 C CNN
 	1    9100 4150
 	1    0    0    -1  

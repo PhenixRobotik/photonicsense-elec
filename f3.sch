@@ -42,17 +42,6 @@ I2C_SCL
 Text HLabel 4600 4600 0    50   BiDi ~ 0
 I2C_SDA
 $Comp
-L Device:Crystal Y1
-U 1 1 5BBD409E
-P 4100 3750
-F 0 "Y1" V 4054 3881 50  0000 L CNN
-F 1 "Crystal" V 4145 3881 50  0000 L CNN
-F 2 "" H 4100 3750 50  0001 C CNN
-F 3 "~" H 4100 3750 50  0001 C CNN
-	1    4100 3750
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C9
 U 1 1 5BBD416E
 P 3800 3500
@@ -101,31 +90,9 @@ Wire Wire Line
 Wire Wire Line
 	3500 4000 3650 4000
 Wire Wire Line
-	3950 4000 4100 4000
-Wire Wire Line
-	4100 4000 4100 3950
-Wire Wire Line
-	3950 3500 4100 3500
-Wire Wire Line
-	4100 3500 4100 3550
-Wire Wire Line
-	4100 3550 4650 3550
-Wire Wire Line
-	4650 3550 4650 3700
-Wire Wire Line
 	4650 3700 4750 3700
-Connection ~ 4100 3550
-Wire Wire Line
-	4100 3550 4100 3600
 Wire Wire Line
 	4750 3800 4650 3800
-Wire Wire Line
-	4650 3800 4650 3950
-Wire Wire Line
-	4650 3950 4100 3950
-Connection ~ 4100 3950
-Wire Wire Line
-	4100 3950 4100 3900
 $Comp
 L Device:R R15
 U 1 1 5BBD441A
@@ -476,4 +443,37 @@ Text HLabel 6000 3500 2    50   Output ~ 0
 US_OE
 Wire Wire Line
 	5850 3500 6000 3500
+Wire Wire Line
+	4650 3550 4650 3700
+Wire Wire Line
+	4650 3800 4650 3950
+Wire Wire Line
+	3950 4000 4100 4000
+Wire Wire Line
+	3950 3500 4100 3500
+Wire Wire Line
+	4100 3950 4100 3900
+Wire Wire Line
+	4100 4000 4100 3950
+Connection ~ 4100 3950
+Wire Wire Line
+	4650 3950 4100 3950
+Wire Wire Line
+	4100 3550 4100 3600
+Wire Wire Line
+	4100 3500 4100 3550
+Connection ~ 4100 3550
+Wire Wire Line
+	4100 3550 4650 3550
+$Comp
+L Device:Crystal Y1
+U 1 1 5BBD409E
+P 4100 3750
+F 0 "Y1" V 4054 3881 50  0000 L CNN
+F 1 "Crystal" V 4145 3881 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
