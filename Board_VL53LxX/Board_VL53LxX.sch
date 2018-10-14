@@ -125,8 +125,6 @@ $EndComp
 Wire Wire Line
 	4300 3850 4250 3850
 Connection ~ 4250 3850
-Wire Wire Line
-	4250 3850 4000 3850
 $Comp
 L power:+2V8 #PWR05
 U 1 1 5BC38001
@@ -206,16 +204,8 @@ I2C_SCL
 Text Label 3600 3850 2    50   ~ 0
 I2C_SDA
 Wire Wire Line
-	3600 3850 4000 3850
-Connection ~ 4000 3850
-Wire Wire Line
 	6050 3850 5800 3850
 Connection ~ 5800 3850
-Connection ~ 4000 4050
-Wire Wire Line
-	4000 4050 4250 4050
-Wire Wire Line
-	3600 4050 4000 4050
 Connection ~ 5500 4050
 Wire Wire Line
 	5500 4050 5750 4050
@@ -268,28 +258,6 @@ Wire Wire Line
 	6600 4150 6750 4150
 Connection ~ 6600 4150
 $Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5BC3B565
-P 4000 3700
-F 0 "JP1" V 4046 3612 50  0000 R CNN
-F 1 "SolderJumper_2_Open" V 3955 3612 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4000 3700 50  0001 C CNN
-F 3 "~" H 4000 3700 50  0001 C CNN
-	1    4000 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5BC3B818
-P 4000 4200
-F 0 "JP2" V 3954 4268 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 4045 4268 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4000 4200 50  0001 C CNN
-F 3 "~" H 4000 4200 50  0001 C CNN
-	1    4000 4200
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5BC3B9FD
 P 2350 4000
@@ -319,4 +287,71 @@ F 3 "~" H 5400 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 4200 2700 4200
+Wire Wire Line
+	3600 3850 4000 3850
+Wire Wire Line
+	4000 3550 4000 3850
+Connection ~ 4000 3850
+Wire Wire Line
+	4000 3850 4250 3850
+Text Notes 3650 3700 0    50   ~ 0
+Otionnel
+Text Notes 3700 4500 0    50   ~ 0
+Otionnel
+Wire Wire Line
+	3600 4050 4000 4050
+Wire Wire Line
+	4000 4050 4000 4350
+Connection ~ 4000 4050
+Wire Wire Line
+	4000 4050 4250 4050
+Wire Notes Line
+	3350 3750 4050 3750
+Wire Notes Line
+	4050 3750 4050 3300
+Wire Notes Line
+	4050 3300 3350 3300
+Wire Notes Line
+	3350 3300 3350 3750
+Wire Notes Line
+	3400 4550 4050 4550
+Wire Notes Line
+	4050 4550 4050 4100
+Wire Notes Line
+	4050 4100 3400 4100
+Wire Notes Line
+	3400 4100 3400 4550
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BC3ACFC
+P 7700 3650
+F 0 "MH1" H 7800 3696 50  0000 L CNN
+F 1 "MountingHole" H 7800 3605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7700 3650 50  0001 C CNN
+F 3 "~" H 7700 3650 50  0001 C CNN
+	1    7700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BC3AFD2
+P 7700 3900
+F 0 "MH2" H 7800 3946 50  0000 L CNN
+F 1 "MountingHole" H 7800 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7700 3900 50  0001 C CNN
+F 3 "~" H 7700 3900 50  0001 C CNN
+	1    7700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5BC3B0F0
+P 7250 3800
+F 0 "#LOGO1" H 7250 4075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7250 3575 50  0001 C CNN
+F 2 "" H 7250 3800 50  0001 C CNN
+F 3 "~" H 7250 3800 50  0001 C CNN
+	1    7250 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
