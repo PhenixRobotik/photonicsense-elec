@@ -110,7 +110,7 @@ U 1 1 5BBD452E
 P 3550 3000
 F 0 "JP2" H 3550 3239 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 3550 3148 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3550 3000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3550 3000 50  0001 C CNN
 F 3 "~" H 3550 3000 50  0001 C CNN
 	1    3550 3000
 	1    0    0    -1  
@@ -462,7 +462,7 @@ U 1 1 5BBD409E
 P 4100 3750
 F 0 "Y1" V 4054 3881 50  0000 L CNN
 F 1 "Crystal" V 4145 3881 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 4100 3750 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 4100 3750 50  0001 C CNN
 F 3 "~" H 4100 3750 50  0001 C CNN
 	1    4100 3750
 	0    1    1    0   
