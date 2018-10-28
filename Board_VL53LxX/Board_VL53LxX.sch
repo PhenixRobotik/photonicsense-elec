@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Board_VL53LxX-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -122,9 +123,6 @@ F 3 "~" H 5500 4200 50  0001 C CNN
 	1    5500 4200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4300 3850 4250 3850
-Connection ~ 4250 3850
 $Comp
 L power:+2V8 #PWR05
 U 1 1 5BC38001
