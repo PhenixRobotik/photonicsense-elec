@@ -258,13 +258,13 @@ Connection ~ 6600 4150
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5BC3B9FD
-P 2350 4000
-F 0 "J1" H 2270 3475 50  0000 C CNN
-F 1 "Conn_01x06" H 2270 3566 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 2350 4000 50  0001 C CNN
-F 3 "~" H 2350 4000 50  0001 C CNN
-	1    2350 4000
-	-1   0    0    1   
+P 2350 3900
+F 0 "J1" H 2270 3375 50  0000 C CNN
+F 1 "Conn_01x06" H 2270 3466 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 2350 3900 50  0001 C CNN
+F 3 "~" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	-1   0    0    -1  
 $EndComp
 Text Label 2550 3450 0    50   ~ 0
 GPIO
