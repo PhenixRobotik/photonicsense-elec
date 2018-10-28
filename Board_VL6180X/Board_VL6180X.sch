@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Board_VL6180X-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -311,12 +312,12 @@ $EndComp
 Wire Wire Line
 	4200 4000 4500 4000
 $Comp
-L PhoenixRobotik:VL6180X U?
+L PhoenixRobotik:VL6180X U1
 U 1 1 5BD5E1D7
 P 5000 3800
-F 0 "U?" H 5330 3846 50  0000 L CNN
+F 0 "U1" H 5330 3846 50  0000 L CNN
 F 1 "VL6180X" H 5330 3755 50  0000 L CNN
-F 2 "PhoenixRobotik:TOF-12_4.4x2.4x1.0mm_P0.8mm" H 6200 3300 50  0001 C CNN
+F 2 "PhoenixRobotik:ST_LGA-12_2.8x4.8x1.0mm_P0.75mm" H 6200 3300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/vl6180x.pdf" H 6200 3200 50  0001 C CNN
 	1    5000 3800
 	1    0    0    -1  
