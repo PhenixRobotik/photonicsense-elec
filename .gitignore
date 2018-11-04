@@ -1,9 +1,4 @@
-
-# Created by https://www.gitignore.io/api/kicad
-
-### KiCad ###
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -13,6 +8,7 @@
 *~
 _autosave-*
 *.tmp
+*-cache.lib
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
@@ -27,7 +23,3 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
-
-# End of https://www.gitignore.io/api/kicad
-
-_saved_*.sch
