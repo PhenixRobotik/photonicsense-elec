@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PhoenixRobotik:CAN_conn P1
+L PhenixRobotik:CAN_conn P1
 U 1 1 5B231012
 P 6700 2050
 AR Path="/5B231012" Ref="P1"  Part="1" 
@@ -57,7 +57,7 @@ RX_CAN
 Text HLabel 4450 1850 0    50   Input ~ 0
 TX_CAN
 $Comp
-L PhoenixRobotik:CAN_conn P2
+L PhenixRobotik:CAN_conn P2
 U 1 1 5BADEF26
 P 7450 2050
 AR Path="/5BADEF26" Ref="P2"  Part="1" 
@@ -679,7 +679,7 @@ $EndComp
 Wire Wire Line
 	7550 1650 7850 1650
 $Comp
-L PhoenixRobotik:LP38693MP-ADJ U6
+L PhenixRobotik:LP38693MP-ADJ U6
 U 1 1 5BC2B40F
 P 8350 4150
 F 0 "U6" H 8350 4517 50  0000 C CNN

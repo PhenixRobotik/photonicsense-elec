@@ -187,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 5650 10650 4800
 $Comp
-L PhoenixRobotik:74HC164 U2
+L PhenixRobotik:74HC164 U2
 U 1 1 5BBF77F3
 P 7050 5350
 F 0 "U2" H 7050 5350 50  0000 C CNN
@@ -350,7 +350,7 @@ F20 "US_ECHO_3" I R 4850 3450 50
 F21 "US_OE" O R 4850 3350 50 
 $EndSheet
 $Comp
-L PhoenixRobotik:TXB0108PW U1
+L PhenixRobotik:TXB0108PW U1
 U 1 1 5BC00788
 P 5650 3750
 F 0 "U1" H 5650 3750 50  0000 C CNN
@@ -633,7 +633,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 4300 3450 5650
 $Comp
-L PhoenixRobotik:Conn_Debug J1
+L PhenixRobotik:Conn_Debug J1
 U 1 1 5BD16E64
 P 2300 3350
 F 0 "J1" H 2530 3248 50  0000 L CNN
