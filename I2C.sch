@@ -22,6 +22,7 @@ F 0 "Q1" V 3193 3300 50  0000 C CNN
 F 1 "BSS138" V 3102 3300 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3050 3225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2850 3300 50  0001 L CNN
+F 4 "545-2529" H 0   0   50  0001 C CNN "RS"
 	1    2850 3300
 	0    -1   -1   0   
 $EndComp
@@ -37,6 +38,7 @@ F 0 "Q2" V 3743 3700 50  0000 C CNN
 F 1 "BSS138" V 3652 3700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3600 3625 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3400 3700 50  0001 L CNN
+F 4 "545-2529" H 0   0   50  0001 C CNN "RS"
 	1    3400 3700
 	0    -1   -1   0   
 $EndComp

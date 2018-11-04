@@ -34,6 +34,7 @@ F 0 "Q5" V 4343 3100 50  0000 C CNN
 F 1 "BSS138" V 4252 3100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4200 3025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4000 3100 50  0001 L CNN
+F 4 "545-2529" H 0   0   50  0001 C CNN "RS"
 	1    4000 3100
 	0    -1   -1   0   
 $EndComp

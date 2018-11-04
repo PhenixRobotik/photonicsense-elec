@@ -24,6 +24,7 @@ F 0 "P1" H 6500 1750 50  0000 L CNN
 F 1 "CAN_conn" H 6450 2350 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 6850 1700 50  0001 C CNN
 F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 7149 1959 50  0001 L CNN
+F 4 "820-1560" H 0   0   50  0001 C CNN "RS"
 	1    6700 2050
 	1    0    0    -1  
 $EndComp
@@ -65,6 +66,7 @@ F 0 "P2" H 7250 1750 50  0000 L CNN
 F 1 "CAN_conn" H 7200 2350 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 7600 1700 50  0001 C CNN
 F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 7899 1959 50  0001 L CNN
+F 4 "820-1560" H 0   0   50  0001 C CNN "RS"
 	1    7450 2050
 	1    0    0    -1  
 $EndComp
@@ -97,6 +99,7 @@ F 0 "U5" H 6400 4292 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 6400 4201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6400 4250 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 6500 3800 50  0001 C CNN
+F 4 "714-0697" H 0   0   50  0001 C CNN "RS"
 	1    6400 4050
 	1    0    0    -1  
 $EndComp
@@ -111,6 +114,7 @@ F 0 "D4" V 7388 4282 50  0000 R CNN
 F 1 "LED_ALT" V 7297 4282 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 7350 4400 50  0001 C CNN
 F 3 "~" H 7350 4400 50  0001 C CNN
+F 4 "174-9844,174-9849" H 0   0   50  0001 C CNN "RS"
 	1    7350 4400
 	0    -1   -1   0   
 $EndComp
@@ -125,6 +129,7 @@ F 0 "D5" V 9788 4282 50  0000 R CNN
 F 1 "LED_ALT" V 9697 4282 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 9750 4400 50  0001 C CNN
 F 3 "~" H 9750 4400 50  0001 C CNN
+F 4 "174-9844,174-9849" H 0   0   50  0001 C CNN "RS"
 	1    9750 4400
 	0    -1   -1   0   
 $EndComp
@@ -292,6 +297,7 @@ F 0 "D2" V 3838 4232 50  0000 R CNN
 F 1 "LED_ALT" V 3747 4232 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 3800 4350 50  0001 C CNN
 F 3 "~" H 3800 4350 50  0001 C CNN
+F 4 "174-9844,174-9849" H 0   0   50  0001 C CNN "RS"
 	1    3800 4350
 	0    -1   -1   0   
 $EndComp
@@ -390,6 +396,7 @@ F 0 "C7" H 7735 4354 50  0000 R CNN
 F 1 "1µ" H 7735 4445 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7888 4250 50  0001 C CNN
 F 3 "~" H 7850 4400 50  0001 C CNN
+F 4 "133-5653" H 0   0   50  0001 C CNN "RS"
 	1    7850 4400
 	-1   0    0    1   
 $EndComp
@@ -435,6 +442,7 @@ F 0 "C8" H 9565 4396 50  0000 L CNN
 F 1 "1µ" H 9565 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9488 4200 50  0001 C CNN
 F 3 "~" H 9450 4350 50  0001 C CNN
+F 4 "133-5653" H 0   0   50  0001 C CNN "RS"
 	1    9450 4350
 	1    0    0    -1  
 $EndComp
@@ -532,6 +540,7 @@ F 0 "D3" V 5738 4282 50  0000 R CNN
 F 1 "LED_ALT" V 5647 4282 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 5700 4400 50  0001 C CNN
 F 3 "~" H 5700 4400 50  0001 C CNN
+F 4 "174-9844,174-9849" H 0   0   50  0001 C CNN "RS"
 	1    5700 4400
 	0    -1   -1   0   
 $EndComp
@@ -599,6 +608,7 @@ F 0 "U4" H 4300 4292 50  0000 C CNN
 F 1 "LD1117S50TR_SOT223" H 4300 4201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4300 4250 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 4400 3800 50  0001 C CNN
+F 4 "686-9379" H 0   0   50  0001 C CNN "RS"
 	1    4300 4050
 	1    0    0    -1  
 $EndComp
@@ -676,6 +686,7 @@ F 0 "U6" H 8350 4517 50  0000 C CNN
 F 1 "LP38693MP-ADJ" H 8350 4426 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-5" H 8350 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/snvs324k/snvs324k.pdf" H 8350 4150 50  0001 C CNN
+F 4 "537-9222" H 0   0   50  0001 C CNN "RS"
 	1    8350 4150
 	1    0    0    -1  
 $EndComp
@@ -687,6 +698,7 @@ F 0 "C6" H 4968 4446 50  0000 L CNN
 F 1 "10µ" H 4968 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 4888 4250 50  0001 C CNN
 F 3 "~" H 4850 4400 50  0001 C CNN
+F 4 " 708-5815" H 0   0   50  0001 C CNN "RS"
 	1    4850 4400
 	1    0    0    -1  
 $EndComp
@@ -727,6 +739,7 @@ F 0 "C16" H 7018 4446 50  0000 L CNN
 F 1 "10µ" H 7018 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 6938 4250 50  0001 C CNN
 F 3 "~" H 6900 4400 50  0001 C CNN
+F 4 " 708-5815" H 0   0   50  0001 C CNN "RS"
 	1    6900 4400
 	1    0    0    -1  
 $EndComp
@@ -738,6 +751,7 @@ F 0 "U3" H 5550 1650 50  0000 C CNN
 F 1 "TCAN332" H 5250 2050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 1550 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tcan337.pdf" H 5250 2050 50  0001 C CNN
+F 4 "133-0714" H 0   0   50  0001 C CNN "RS"
 	1    5250 2050
 	1    0    0    -1  
 $EndComp
@@ -799,10 +813,10 @@ Connection ~ 5250 1550
 Text HLabel 6150 2150 0    50   Input ~ 0
 NRST
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0101
 U 1 1 5BD33885
 P 5250 1400
-F 0 "#PWR?" H 5250 1250 50  0001 C CNN
+F 0 "#PWR0101" H 5250 1250 50  0001 C CNN
 F 1 "+3V3" H 5265 1573 50  0000 C CNN
 F 2 "" H 5250 1400 50  0001 C CNN
 F 3 "" H 5250 1400 50  0001 C CNN
