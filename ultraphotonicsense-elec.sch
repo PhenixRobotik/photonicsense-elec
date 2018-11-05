@@ -679,10 +679,10 @@ F 3 "" H 9700 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5BE0F32B
 P 9300 1850
-F 0 "#LOGO1" H 9300 2125 50  0001 C CNN
+F 0 "LOGO1" H 9300 2125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 9300 1625 50  0001 C CNN
 F 2 "PhenixRobotik:Logo_16,9mm" H 9300 1850 50  0001 C CNN
 F 3 "~" H 9300 1850 50  0001 C CNN
@@ -690,10 +690,10 @@ F 3 "~" H 9300 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO2
+L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 5BE0F4FA
 P 9750 1850
-F 0 "#LOGO2" H 9750 2125 50  0001 C CNN
+F 0 "LOGO2" H 9750 2125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 9750 1625 50  0001 C CNN
 F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 9750 1850 50  0001 C CNN
 F 3 "~" H 9750 1850 50  0001 C CNN
@@ -701,10 +701,10 @@ F 3 "~" H 9750 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO3
+L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 5BE0F601
 P 10200 1850
-F 0 "#LOGO3" H 10200 2125 50  0001 C CNN
+F 0 "LOGO3" H 10200 2125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10200 1625 50  0001 C CNN
 F 2 "Symbol:KiCad-Logo_6mm_SilkScreen" H 10200 1850 50  0001 C CNN
 F 3 "~" H 10200 1850 50  0001 C CNN
