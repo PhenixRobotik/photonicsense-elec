@@ -85,12 +85,12 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PhoenixRobotik_VL53L0X
+# PhenixRobotik_VL53L0X
 #
-DEF PhoenixRobotik_VL53L0X U 0 20 Y Y 1 F N
+DEF PhenixRobotik_VL53L0X U 0 20 Y Y 1 F N
 F0 "U" 150 450 50 H V C CNN
-F1 "PhoenixRobotik_VL53L0X" 0 0 50 H V C CNN
-F2 "PhoenixRobotik:TOF-12_4.4x2.4x1.0mm_P0.8mm" 1200 -500 50 H I C CNN
+F1 "PhenixRobotik_VL53L0X" 0 0 50 H V C CNN
+F2 "PhenixRobotik:TOF-12_4.4x2.4x1.0mm_P0.8mm" 1200 -500 50 H I C CNN
 F3 "" 1200 -600 50 H I C CNN
 $FPLIST
  TOF?12?4.4x2.4*mm*

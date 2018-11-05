@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Board_VL6180X-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -277,28 +276,6 @@ Wire Notes Line
 Wire Notes Line
 	3650 3850 3650 3400
 $Comp
-L Mechanical:MountingHole MH1
-U 1 1 5BC3ACFC
-P 6600 3350
-F 0 "MH1" H 6700 3396 50  0000 L CNN
-F 1 "MountingHole" H 6700 3305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 6600 3350 50  0001 C CNN
-F 3 "~" H 6600 3350 50  0001 C CNN
-	1    6600 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH2
-U 1 1 5BC3AFD2
-P 6600 3600
-F 0 "MH2" H 6700 3646 50  0000 L CNN
-F 1 "MountingHole" H 6700 3555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 6600 3600 50  0001 C CNN
-F 3 "~" H 6600 3600 50  0001 C CNN
-	1    6600 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5BC3B0F0
 P 6150 3500
@@ -312,12 +289,12 @@ $EndComp
 Wire Wire Line
 	4200 4000 4500 4000
 $Comp
-L PhoenixRobotik:VL6180X U1
+L PhenixRobotik:VL6180X U1
 U 1 1 5BD5E1D7
 P 5000 3800
 F 0 "U1" H 5330 3846 50  0000 L CNN
 F 1 "VL6180X" H 5330 3755 50  0000 L CNN
-F 2 "PhoenixRobotik:ST_LGA-12_2.8x4.8x1.0mm_P0.75mm" H 6200 3300 50  0001 C CNN
+F 2 "PhenixRobotik:ST_LGA-12_2.8x4.8x1.0mm_P0.75mm" H 6200 3300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/vl6180x.pdf" H 6200 3200 50  0001 C CNN
 	1    5000 3800
 	1    0    0    -1  
@@ -367,4 +344,42 @@ Wire Wire Line
 Connection ~ 5100 4450
 Wire Wire Line
 	5100 4450 5700 4450
+$Comp
+L Mechanical:MountingHole_Pad MH1
+U 1 1 5BE08214
+P 7200 3300
+F 0 "MH1" V 7154 3450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7245 3450 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 7200 3300 50  0001 C CNN
+F 3 "~" H 7200 3300 50  0001 C CNN
+	1    7200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH2
+U 1 1 5BE08279
+P 7200 3500
+F 0 "MH2" V 7154 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7245 3650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 7200 3500 50  0001 C CNN
+F 3 "~" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3300 7100 3500
+Connection ~ 7100 3500
+Wire Wire Line
+	7100 3500 7100 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5BE08F16
+P 7100 3700
+F 0 "#PWR?" H 7100 3450 50  0001 C CNN
+F 1 "GND" H 7105 3527 50  0000 C CNN
+F 2 "" H 7100 3700 50  0001 C CNN
+F 3 "" H 7100 3700 50  0001 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
