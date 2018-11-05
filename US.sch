@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ultraphotonicsense-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -21,7 +22,7 @@ AR Path="/5BC0526F/5BC053B5" Ref="J10"  Part="1"
 AR Path="/5BC05277/5BC053B5" Ref="J11"  Part="1" 
 AR Path="/5BC05284/5BC053B5" Ref="J12"  Part="1" 
 AR Path="/5BC05291/5BC053B5" Ref="J13"  Part="1" 
-F 0 "J10" V 3966 2262 50  0000 R CNN
+F 0 "J13" V 3966 2262 50  0000 R CNN
 F 1 "Conn_01x04" V 3875 2262 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 4000 2550 50  0001 C CNN
 F 3 "~" H 4000 2550 50  0001 C CNN

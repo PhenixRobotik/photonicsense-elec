@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ultraphotonicsense-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -255,61 +256,6 @@ F1 "US.sch" 50
 F2 "Trigger" I B 6400 3000 50 
 F3 "Echo" O B 6300 3000 50 
 $EndSheet
-$Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO1
-U 1 1 5BBE6179
-P 9000 3350
-F 0 "#LOGO1" H 9000 3850 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 9000 2950 50  0001 C CNN
-F 2 "" H 9000 3350 50  0001 C CNN
-F 3 "~" H 9000 3350 50  0001 C CNN
-	1    9000 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH1
-U 1 1 5BBE6263
-P 9600 2950
-F 0 "MH1" H 9700 2996 50  0000 L CNN
-F 1 "MountingHole" H 9700 2905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9600 2950 50  0001 C CNN
-F 3 "~" H 9600 2950 50  0001 C CNN
-	1    9600 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH2
-U 1 1 5BBE62B0
-P 9600 3200
-F 0 "MH2" H 9700 3246 50  0000 L CNN
-F 1 "MountingHole" H 9700 3155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9600 3200 50  0001 C CNN
-F 3 "~" H 9600 3200 50  0001 C CNN
-	1    9600 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH3
-U 1 1 5BBE62F0
-P 9600 3450
-F 0 "MH3" H 9700 3496 50  0000 L CNN
-F 1 "MountingHole" H 9700 3405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9600 3450 50  0001 C CNN
-F 3 "~" H 9600 3450 50  0001 C CNN
-	1    9600 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH4
-U 1 1 5BBE6333
-P 9600 3700
-F 0 "MH4" H 9700 3746 50  0000 L CNN
-F 1 "MountingHole" H 9700 3655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9600 3700 50  0001 C CNN
-F 3 "~" H 9600 3700 50  0001 C CNN
-	1    9600 3700
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5250 5550 800  200 
 U 5BBEFA89
@@ -666,4 +612,103 @@ Wire Wire Line
 Connection ~ 6450 4950
 Wire Wire Line
 	6450 4950 6550 4950
+$Comp
+L Mechanical:MountingHole_Pad MH1
+U 1 1 5BE093BE
+P 9800 3050
+F 0 "MH1" V 9754 3200 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9845 3200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3050 50  0001 C CNN
+F 3 "~" H 9800 3050 50  0001 C CNN
+	1    9800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH2
+U 1 1 5BE09443
+P 9800 3250
+F 0 "MH2" V 9754 3400 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9845 3400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3250 50  0001 C CNN
+F 3 "~" H 9800 3250 50  0001 C CNN
+	1    9800 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH3
+U 1 1 5BE0949E
+P 9800 3450
+F 0 "MH3" V 9754 3600 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9845 3600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3450 50  0001 C CNN
+F 3 "~" H 9800 3450 50  0001 C CNN
+	1    9800 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH4
+U 1 1 5BE08F84
+P 9800 3650
+F 0 "MH4" V 9754 3800 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9845 3800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3650 50  0001 C CNN
+F 3 "~" H 9800 3650 50  0001 C CNN
+	1    9800 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 3050 9700 3250
+Connection ~ 9700 3250
+Wire Wire Line
+	9700 3250 9700 3450
+Connection ~ 9700 3450
+Wire Wire Line
+	9700 3450 9700 3650
+Connection ~ 9700 3650
+Wire Wire Line
+	9700 3650 9700 3800
+$Comp
+L power:GND #PWR0102
+U 1 1 5BE0B99C
+P 9700 3800
+F 0 "#PWR0102" H 9700 3550 50  0001 C CNN
+F 1 "GND" H 9705 3627 50  0000 C CNN
+F 2 "" H 9700 3800 50  0001 C CNN
+F 3 "" H 9700 3800 50  0001 C CNN
+	1    9700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5BE0F32B
+P 9300 1850
+F 0 "#LOGO1" H 9300 2125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9300 1625 50  0001 C CNN
+F 2 "PhenixRobotik:Logo_16,9mm" H 9300 1850 50  0001 C CNN
+F 3 "~" H 9300 1850 50  0001 C CNN
+	1    9300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO2
+U 1 1 5BE0F4FA
+P 9750 1850
+F 0 "#LOGO2" H 9750 2125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9750 1625 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 9750 1850 50  0001 C CNN
+F 3 "~" H 9750 1850 50  0001 C CNN
+	1    9750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO3
+U 1 1 5BE0F601
+P 10200 1850
+F 0 "#LOGO3" H 10200 2125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10200 1625 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo_6mm_SilkScreen" H 10200 1850 50  0001 C CNN
+F 3 "~" H 10200 1850 50  0001 C CNN
+	1    10200 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
