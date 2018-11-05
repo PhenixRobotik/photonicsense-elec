@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Board_VL53LxX-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PhoenixRobotik:VL53L0X U1
+L PhenixRobotik:VL53L0X U1
 U 1 1 5BC3718A
 P 4750 3950
 F 0 "U1" H 4750 4628 50  0000 C CNN
 F 1 "VL53L0X" H 4750 4537 50  0000 C CNN
-F 2 "PhoenixRobotik:TOF-12_4.4x2.4x1.0mm_P0.8mm" H 5950 3450 50  0001 C CNN
+F 2 "PhenixRobotik:TOF-12_4.4x2.4x1.0mm_P0.8mm" H 5950 3450 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/vl53l0x.pdf" H 5950 3350 50  0001 C CNN
 	1    4750 3950
 	1    0    0    -1  
@@ -320,36 +319,63 @@ Wire Notes Line
 Wire Notes Line
 	3400 4100 3400 4550
 $Comp
-L Mechanical:MountingHole MH1
-U 1 1 5BC3ACFC
-P 7700 3650
-F 0 "MH1" H 7800 3696 50  0000 L CNN
-F 1 "MountingHole" H 7800 3605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 7700 3650 50  0001 C CNN
-F 3 "~" H 7700 3650 50  0001 C CNN
-	1    7700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH2
-U 1 1 5BC3AFD2
-P 7700 3900
-F 0 "MH2" H 7800 3946 50  0000 L CNN
-F 1 "MountingHole" H 7800 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 7700 3900 50  0001 C CNN
-F 3 "~" H 7700 3900 50  0001 C CNN
-	1    7700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5BC3B0F0
-P 7250 3800
-F 0 "#LOGO1" H 7250 4075 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 7250 3575 50  0001 C CNN
-F 2 "" H 7250 3800 50  0001 C CNN
-F 3 "~" H 7250 3800 50  0001 C CNN
-	1    7250 3800
+P 7200 3000
+F 0 "LOGO1" H 7200 3275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7200 2775 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 7200 3000 50  0001 C CNN
+F 3 "~" H 7200 3000 50  0001 C CNN
+	1    7200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH1
+U 1 1 5BE08298
+P 8450 3600
+F 0 "MH1" V 8404 3750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8495 3750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8450 3600 50  0001 C CNN
+F 3 "~" H 8450 3600 50  0001 C CNN
+	1    8450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH2
+U 1 1 5BE08309
+P 8450 3800
+F 0 "MH2" V 8404 3950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8495 3950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 8450 3800 50  0001 C CNN
+F 3 "~" H 8450 3800 50  0001 C CNN
+	1    8450 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 3600 8350 3800
+Connection ~ 8350 3800
+Wire Wire Line
+	8350 3800 8350 4000
+$Comp
+L power:GND #PWR0101
+U 1 1 5BE0885F
+P 8350 4000
+F 0 "#PWR0101" H 8350 3750 50  0001 C CNN
+F 1 "GND" H 8355 3827 50  0000 C CNN
+F 2 "" H 8350 4000 50  0001 C CNN
+F 3 "" H 8350 4000 50  0001 C CNN
+	1    8350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5BE08D27
+P 7650 3000
+F 0 "LOGO2" H 7650 3275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7650 2775 50  0001 C CNN
+F 2 "PhenixRobotik:Logo_8,5mm" H 7650 3000 50  0001 C CNN
+F 3 "~" H 7650 3000 50  0001 C CNN
+	1    7650 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
