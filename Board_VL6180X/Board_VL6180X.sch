@@ -276,12 +276,12 @@ Wire Notes Line
 Wire Notes Line
 	3650 3850 3650 3400
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5BC3B0F0
 P 6150 3500
-F 0 "#LOGO1" H 6150 3775 50  0001 C CNN
+F 0 "LOGO1" H 6150 3775 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 6150 3275 50  0001 C CNN
-F 2 "" H 6150 3500 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 6150 3500 50  0001 C CNN
 F 3 "~" H 6150 3500 50  0001 C CNN
 	1    6150 3500
 	1    0    0    -1  
@@ -372,14 +372,25 @@ Connection ~ 7100 3500
 Wire Wire Line
 	7100 3500 7100 3700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5BE08F16
 P 7100 3700
-F 0 "#PWR?" H 7100 3450 50  0001 C CNN
+F 0 "#PWR0101" H 7100 3450 50  0001 C CNN
 F 1 "GND" H 7105 3527 50  0000 C CNN
 F 2 "" H 7100 3700 50  0001 C CNN
 F 3 "" H 7100 3700 50  0001 C CNN
 	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5BE09EB9
+P 6600 3500
+F 0 "LOGO2" H 6600 3775 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6600 3275 50  0001 C CNN
+F 2 "PhenixRobotik:Logo_8,5mm" H 6600 3500 50  0001 C CNN
+F 3 "~" H 6600 3500 50  0001 C CNN
+	1    6600 3500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
