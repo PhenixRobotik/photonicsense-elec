@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 17
+Sheet 15 17
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ AR Path="/5F897367" Ref="U?"  Part="1"
 AR Path="/5F89412E/5F897367" Ref="U10"  Part="1" 
 F 0 "U10" H 5450 4000 50  0000 L CNN
 F 1 "SN74AHC1G08DBV" H 5200 3900 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4550 2950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4550 2950 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf" H 4550 2950 50  0001 C CNN
 	1    5150 3650
 	1    0    0    -1  
@@ -62,7 +62,7 @@ AR Path="/5F897381" Ref="R?"  Part="1"
 AR Path="/5F89412E/5F897381" Ref="R13"  Part="1" 
 F 0 "R13" H 4520 3346 50  0000 L CNN
 F 1 "10k" H 4520 3255 50  0000 L CNN
-F 2 "" V 4380 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3300 50  0001 C CNN
 F 3 "~" H 4450 3300 50  0001 C CNN
 	1    4450 3300
 	1    0    0    -1  
@@ -79,13 +79,10 @@ Wire Wire Line
 	4450 3450 4450 3750
 Wire Wire Line
 	4450 3750 4850 3750
-Text HLabel 4150 3550 0    50   Input ~ 0
-NRST_1
+Text HLabel 2700 3550 0    50   Input ~ 0
+NRST_DBG
 Text HLabel 4150 3750 0    50   Input ~ 0
-NRST_2
-Wire Wire Line
-	4150 3550 4700 3550
-Connection ~ 4700 3550
+NRST_CAN
 Wire Wire Line
 	4150 3750 4450 3750
 Connection ~ 4450 3750
@@ -101,7 +98,7 @@ AR Path="/5F89737B" Ref="R?"  Part="1"
 AR Path="/5F89412E/5F89737B" Ref="R14"  Part="1" 
 F 0 "R14" H 4770 3346 50  0000 L CNN
 F 1 "10k" H 4770 3255 50  0000 L CNN
-F 2 "" V 4630 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 3300 50  0001 C CNN
 F 3 "~" H 4700 3300 50  0001 C CNN
 	1    4700 3300
 	1    0    0    -1  
@@ -116,4 +113,88 @@ Connection ~ 4700 3050
 Connection ~ 5150 3050
 Wire Wire Line
 	5150 3050 5150 3350
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5F8C28B9
+P 3000 3800
+AR Path="/5F8C28B9" Ref="SW?"  Part="1" 
+AR Path="/5F89412E/5F8C28B9" Ref="SW1"  Part="1" 
+F 0 "SW1" H 3000 4035 50  0000 C CNN
+F 1 "SW_SPST" H 3000 3944 50  0000 C CNN
+F 2 "PhenixRobotik:SW_SPST_CK_KSS_3.7x5.5mm" H 3000 3800 50  0001 C CNN
+F 3 "~" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C28C2
+P 3000 4100
+AR Path="/5F8C28C2" Ref="#PWR?"  Part="1" 
+AR Path="/5F89412E/5F8C28C2" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 3000 3850 50  0001 C CNN
+F 1 "GND" H 3005 3927 50  0000 C CNN
+F 2 "" H 3000 4100 50  0001 C CNN
+F 3 "" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8C28C9
+P 3450 3800
+AR Path="/5F8C28C9" Ref="C?"  Part="1" 
+AR Path="/5F89412E/5F8C28C9" Ref="C17"  Part="1" 
+F 0 "C17" V 3198 3800 50  0000 C CNN
+F 1 "100n" V 3289 3800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3488 3650 50  0001 C CNN
+F 3 "~" H 3450 3800 50  0001 C CNN
+	1    3450 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8C28D0
+P 3250 3550
+AR Path="/5F8C28D0" Ref="R?"  Part="1" 
+AR Path="/5F89412E/5F8C28D0" Ref="R12"  Part="1" 
+F 0 "R12" V 3043 3550 50  0000 C CNN
+F 1 "1k" V 3134 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 3550 50  0001 C CNN
+F 3 "~" H 3250 3550 50  0001 C CNN
+	1    3250 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 4000 3000 4100
+Wire Wire Line
+	2700 3550 3000 3550
+Wire Wire Line
+	3000 3550 3000 3600
+Wire Wire Line
+	3000 3550 3100 3550
+Connection ~ 3000 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5F8CE0F3
+P 3450 4100
+AR Path="/5F8CE0F3" Ref="#PWR?"  Part="1" 
+AR Path="/5F89412E/5F8CE0F3" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 3450 3850 50  0001 C CNN
+F 1 "GND" H 3455 3927 50  0000 C CNN
+F 2 "" H 3450 4100 50  0001 C CNN
+F 3 "" H 3450 4100 50  0001 C CNN
+	1    3450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4100 3450 3950
+Wire Wire Line
+	3400 3550 3450 3550
+Wire Wire Line
+	3450 3550 3450 3650
+Wire Wire Line
+	3450 3550 4700 3550
+Connection ~ 3450 3550
+Connection ~ 4700 3550
 $EndSCHEMATC
