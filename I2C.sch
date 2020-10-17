@@ -233,4 +233,14 @@ Wire Wire Line
 Connection ~ 3600 2600
 Wire Wire Line
 	3600 2600 3950 2600
+Wire Notes Line
+	3800 2750 4500 2750
+Wire Notes Line
+	4500 2750 4500 3150
+Wire Notes Line
+	4500 3150 3800 3150
+Wire Notes Line
+	3800 3150 3800 2750
+Text Notes 4550 3000 0    50   ~ 0
+Essayer 1k en cas de problème\nRester en dessous de 6 mA.
 $EndSCHEMATC
